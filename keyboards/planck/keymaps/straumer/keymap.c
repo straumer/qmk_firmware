@@ -48,7 +48,7 @@ enum planck_keycodes {
 #define SECOND MO(_SECOND)
 #define THIRD MO(_THIRD)
 #define FOURTH MO(_FOURTH)
-#define ALTGR RGUI(KC_RALT)
+#define ALTGR RALT(KC_RGUI)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
